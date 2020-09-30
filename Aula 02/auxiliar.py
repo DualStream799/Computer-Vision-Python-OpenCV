@@ -1,14 +1,3 @@
-
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-"""
-    Atenção: usado no notebook da aula. 
-    Não precisa ser usado diretamente
-"""
-
-print("Este script não deve ser executado diretamente")
-
 from ipywidgets import widgets, interact, interactive, FloatSlider, IntSlider
 import numpy as np
 import cv2

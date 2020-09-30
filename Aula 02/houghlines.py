@@ -6,7 +6,7 @@ This example illustrates how to use Hough Transform to find lines
 
 Usage:
     houghlines.py [<image_name>]
-    image argument defaults to ./box.png
+    image argument defaults to ./pic1.png
 '''
 
 # Python 2/3 compatibility
@@ -23,7 +23,7 @@ if __name__ == '__main__':
     try:
         fn = sys.argv[1]
     except IndexError:
-        fn = "./box.png"
+        fn = "./pic1.png"
 
     src = cv2.imread(fn)
     dst = cv2.Canny(src, 50, 200) # aplica o detector de bordas de Canny à imagem src
